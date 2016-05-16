@@ -68,7 +68,16 @@ n1  <- runClusters(1 , D)
 summary <- data.table(models = J,
                       size = N,
                       rbind(n12, n8, n6, n5, n4, n3, n2, n1),
-                      timestamp = Sys.time())
+                      timestamp = Sys.time(),
+                      sysname = Sys.info()["sysname"],
+                      release = Sys.info()["release"],
+                      version = Sys.info()["version"],
+                      nodename = Sys.info()["nodename"],
+                      machine = Sys.info()["machine"],
+                      user = Sys.info()["user"],
+                      R.version = sessionInfo()$R.version,
+                      platform = sessionInfo()$platform,
+                      running = sessionInfo()$running)
 write.csv(summary, file="parallelGLMTuning.csv", row.names=FALSE)
 
 sink()
