@@ -1,0 +1,32 @@
+000 (247280.000.000) 05/17 08:37:27 Job submitted from host: <172.20.12.20:46570>
+...
+001 (247280.000.000) 05/17 08:37:28 Job executing on host: <172.20.15.171:49928?noUDP>
+...
+006 (247280.000.000) 05/17 08:37:36 Image size of job updated: 1346136
+	1315  -  MemoryUsage of job (MB)
+	1346136  -  ResidentSetSize of job (KB)
+...
+006 (247280.000.000) 05/17 08:42:36 Image size of job updated: 96429616
+	94170  -  MemoryUsage of job (MB)
+	96429616  -  ResidentSetSize of job (KB)
+...
+006 (247280.000.000) 05/17 08:52:38 Image size of job updated: 167129396
+	163213  -  MemoryUsage of job (MB)
+	167129396  -  ResidentSetSize of job (KB)
+...
+005 (247280.000.000) 05/17 10:08:19 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 03:39:29, Sys 0 00:19:09  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 03:39:29, Sys 0 00:19:09  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated
+	   Cpus                 :                12        12
+	   Disk (KB)            :       12 10485760  11450436
+	   Memory (MB)          :   163213   245760    245760
+	   Multinode            :                           1
+...

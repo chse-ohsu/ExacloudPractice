@@ -1,0 +1,13 @@
+getenv            = True
+Universe          = vanilla
+TimeTaken         = 180
++MaxExecutionTime = $(TimeTaken)
+Request_Cpus      = 12
+Request_Memory    = 240 GB
+request_disk      = 10 GB
+Executable        = /usr/bin/Rscript
+Arguments         = parallelGLMTuning.R
+Log               = job-$(Cluster)-$(Process).log
+Output            = job-$(Cluster)-$(Process).output
+Error             = job-$(Cluster)-$(Process).error
+Queue 1
