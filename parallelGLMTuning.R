@@ -76,5 +76,17 @@ summary <- data.table(models = J,
                       platform = sessionInfo()$platform,
                       running = sessionInfo()$running)
 write.csv(summary, file="parallelGLMTuning.csv", row.names=FALSE)
+file.info("parallelGLMTuning.csv")
+
+library(ggplot2)
+G <- ggplot(summary, aes(x=workers, y=elapsed / 60))
+G <- G + geom_point(size=5)
+G <- G + geom_line(alpha=1/2, size=2)
+G <- G + scale_x_continuous("Number of workers", breaks=summary$workers)
+G <- G + scale_y_continuous("Elapsed time (minutes)")
+G <- G + theme_minimal()
+ggsave("parallelGLMTuning.png", width=6, height=4, units="in")
+file.info("parallelGLMTuning.png")
+
 
 sink()
