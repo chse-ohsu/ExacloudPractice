@@ -2,6 +2,12 @@
 
 Practice repository for using the [OHSU](http://www.ohsu.edu/xd/) [Exacloud](http://exainfo/).
 
+
+## Examples
+
+1. [Parallelized GLM model estimation](ParallelGLMTuning/README.md)
+
+
 ## Exacloud resources
 
 Requires OHSU login
