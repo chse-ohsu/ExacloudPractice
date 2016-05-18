@@ -29,3 +29,13 @@ Requires OHSU login
 Does not require OHSU login
 
 * [Quick reference](http://www.linuxdevcenter.com/excerpt/LinuxPG_quickref/linux.pdf)
+
+
+## Tools
+
+* SSH clients
+    * [PuTTY](http://www.putty.org/), standalone client
+    * [Secure Shell](https://chrome.google.com/webstore/detail/secure-shell/pnhechapfaindjhompbnflcldabbghjo), Chrome app
+    * [FireSSH](https://addons.mozilla.org/en-US/firefox/addon/firessh/), Firefox add-on
+* SFTP clients
+    * FileZilla, download [here](https://filezilla-project.org/) or launch from Citrix Receiver
