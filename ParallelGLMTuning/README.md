@@ -50,6 +50,13 @@ Request_Memory    = 240 GB
 request_disk      = 10 GB
 ```
 
+**Note:** the `request_disk` setting was [not necessary](http://exainfo/projects/trainings/wiki/HTCondor).
+
+> Should I request disk space when submitting a job?  
+> No. We expect all jobs to access files on the shared Lustre filesystem (/mnt/lustre1) or your
+> home directory and requesting any disk space is pointless as it is shared among all
+> machines.
+
 `submit` is executed from the Exacloud bash shell prompt using
 
 ```
