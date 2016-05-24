@@ -1,4 +1,4 @@
-# `fread`ing data files in parallel
+# `fread` data files in parallel
 
 This is a real/play example of reading in text data files in parallel.
 
