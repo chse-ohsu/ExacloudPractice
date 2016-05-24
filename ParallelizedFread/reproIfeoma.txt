@@ -1,0 +1,114 @@
+                                                                  size
+/home/exacloud/lustre1/users/chanb/Mcconn_episodes2010.txt 30869374063
+/home/exacloud/lustre1/users/chanb/Mcconn_episodes2011.txt 43410281308
+/home/exacloud/lustre1/users/chanb/Mcconn_episodes2012.txt 45270624481
+/home/exacloud/lustre1/users/chanb/Mcconn_episodes2013.txt 45723795636
+                                                                         mtime
+/home/exacloud/lustre1/users/chanb/Mcconn_episodes2010.txt 2016-05-20 06:46:55
+/home/exacloud/lustre1/users/chanb/Mcconn_episodes2011.txt 2016-05-20 07:10:31
+/home/exacloud/lustre1/users/chanb/Mcconn_episodes2012.txt 2016-05-20 07:03:17
+/home/exacloud/lustre1/users/chanb/Mcconn_episodes2013.txt 2016-05-20 07:18:44
+   year gender        N minYOB maxYOB
+1: 2010      F 22529274   1955   2000
+2: 2010      U      392   1956   1999
+3: 2011      F 26852029   1956   2001
+4: 2011      U      639   1956   2001
+5: 2012      F 27465575   1957   2002
+6: 2012      U      640   1958   2001
+7: 2013      F 26936633   1958   2003
+8: 2013      U     1178   1958   2003
+                                                                              size
+/home/exacloud/lustre1/users/chanb/APAC_episodes_childbearingwomen.dta 24908734778
+                                                                                     mtime
+/home/exacloud/lustre1/users/chanb/APAC_episodes_childbearingwomen.dta 2016-05-23 18:34:17
+$objectName
+[1] "D"
+
+$timeStamp
+[1] "2016-05-23 18:34:17"
+
+$objectSize
+[1] "40 Gb"
+
+$rowCount
+[1] 103786360
+
+$colCount
+[1] 51
+
+$colNames
+ [1] "clmid"      "line"       "apac_payer" "patid"      "personkey" 
+ [6] "gender"     "yob"        "race"       "ethn"       "msa"       
+[11] "state"      "fromdate"   "todate"     "paid"       "copay"     
+[16] "coins"      "deduct"     "hcg"        "dx1"        "dx2"       
+[21] "dx3"        "dx4"        "dx5"        "dx6"        "dx7"       
+[26] "dx8"        "dx9"        "dx10"       "dx11"       "dx12"      
+[31] "dx13"       "px1"        "px2"        "px3"        "px4"       
+[36] "px5"        "px6"        "px7"        "px8"        "px9"       
+[41] "px10"       "px11"       "px12"       "px13"       "proccode"  
+[46] "mod1"       "mod2"       "mod3"       "mod4"       "megnum"    
+[51] "year"      
+
+$colClasses
+      clmid        line  apac_payer       patid   personkey      gender 
+"character" "character" "character"   "integer"   "integer" "character" 
+        yob        race        ethn         msa       state    fromdate 
+  "integer" "character" "character" "character" "character"      "Date" 
+     todate        paid       copay       coins      deduct         hcg 
+     "Date" "character" "character" "character" "character" "character" 
+        dx1         dx2         dx3         dx4         dx5         dx6 
+"character" "character" "character" "character" "character" "character" 
+        dx7         dx8         dx9        dx10        dx11        dx12 
+"character" "character" "character" "character" "character" "character" 
+       dx13         px1         px2         px3         px4         px5 
+"character" "character" "character" "character" "character" "character" 
+        px6         px7         px8         px9        px10        px11 
+"character" "character" "character" "character" "character" "character" 
+       px12        px13    proccode        mod1        mod2        mod3 
+"character" "character" "character" "character" "character" "character" 
+       mod4      megnum        year 
+"character"   "integer"   "integer" 
+
+$timeStart
+[1] "2016-05-23 16:43:55"
+
+$timeEnd
+[1] "2016-05-23 18:35:54 PDT"
+
+$timeElapsed
+[1] "1.866398 hours"
+
+$Sys.info
+                              sysname                               release 
+                              "Linux"          "2.6.32-504.30.3.el6.x86_64" 
+                              version                              nodename 
+"#1 SMP Wed Jul 15 10:13:09 UTC 2015"                   "exanode-3-8.local" 
+                              machine                                 login 
+                             "x86_64"                             "unknown" 
+                                 user                        effective_user 
+                              "chanb"                               "chanb" 
+
+$sessionInfo
+R version 3.2.3 (2015-12-10)
+Platform: x86_64-redhat-linux-gnu (64-bit)
+Running under: CentOS release 6.7 (Final)
+
+locale:
+ [1] LC_CTYPE=en_US.iso885915       LC_NUMERIC=C                  
+ [3] LC_TIME=en_US.iso885915        LC_COLLATE=en_US.iso885915    
+ [5] LC_MONETARY=en_US.iso885915    LC_MESSAGES=en_US.iso885915   
+ [7] LC_PAPER=en_US.iso885915       LC_NAME=C                     
+ [9] LC_ADDRESS=C                   LC_TELEPHONE=C                
+[11] LC_MEASUREMENT=en_US.iso885915 LC_IDENTIFICATION=C           
+
+attached base packages:
+[1] parallel  stats     graphics  grDevices utils     datasets  base     
+
+other attached packages:
+[1] haven_0.2.0       doParallel_1.0.10 iterators_1.0.8   foreach_1.4.3    
+[5] data.table_1.9.6 
+
+loaded via a namespace (and not attached):
+[1] compiler_3.2.3   Rcpp_0.12.4      codetools_0.2-14 methods_3.2.3   
+[5] chron_2.3-47    
+

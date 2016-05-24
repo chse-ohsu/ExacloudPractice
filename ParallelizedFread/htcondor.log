@@ -1,0 +1,43 @@
+000 (275883.000.000) 05/23 16:39:32 Job submitted from host: <172.20.12.20:46570>
+...
+009 (275875.000.000) 05/23 16:43:05 Job was aborted by the user.
+	via condor_rm (by user chanb)
+...
+001 (275883.000.000) 05/23 16:43:55 Job executing on host: <172.20.15.171:46935?noUDP>
+...
+006 (275883.000.000) 05/23 16:44:04 Image size of job updated: 1326036
+	33  -  MemoryUsage of job (MB)
+	32884  -  ResidentSetSize of job (KB)
+...
+006 (275883.000.000) 05/23 16:56:47 Image size of job updated: 99810280
+	26346  -  MemoryUsage of job (MB)
+	26978016  -  ResidentSetSize of job (KB)
+...
+006 (275883.000.000) 05/23 17:19:55 Image size of job updated: 174509808
+	169742  -  MemoryUsage of job (MB)
+	173815456  -  ResidentSetSize of job (KB)
+...
+006 (275883.000.000) 05/23 17:38:26 Image size of job updated: 201506184
+	178796  -  MemoryUsage of job (MB)
+	183086284  -  ResidentSetSize of job (KB)
+...
+006 (275883.000.000) 05/23 17:49:33 Image size of job updated: 271334252
+	237877  -  MemoryUsage of job (MB)
+	243585076  -  ResidentSetSize of job (KB)
+...
+005 (275883.000.000) 05/23 18:36:10 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 02:35:41, Sys 0 00:39:59  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 02:35:41, Sys 0 00:39:59  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated
+	   Cpus                 :                 4         4
+	   Disk (KB)            :       12       12   1987864
+	   Memory (MB)          :   237877   204800    204800
+	   Multinode            :                           1
+...

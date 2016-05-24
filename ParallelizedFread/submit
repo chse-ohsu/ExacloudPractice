@@ -1,0 +1,12 @@
+getenv            = True
+Universe          = vanilla
+TimeTaken         = 180
++MaxExecutionTime = $(TimeTaken)
+Request_Cpus      = 4
+Request_Memory    = 200 GB
+Executable        = /usr/bin/Rscript
+Arguments         = reproIfeoma.R
+Log               = htcondor.log
+Output            = htcondor.output
+Error             = htcondor.error
+Queue
