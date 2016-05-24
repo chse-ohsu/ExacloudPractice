@@ -5,8 +5,8 @@ Practice repository for using the [OHSU](http://www.ohsu.edu/xd/) [Exacloud](htt
 
 ## Examples
 
-1. [`fread`](ParallelizedFread/README.md) data files in parallel
 1. Parallelized GLM [model estimation](ParallelGLMTuning/README.md)
+1. [`fread`](ParallelizedFread/README.md) data files in parallel
 
 
 ## Exacloud resources
